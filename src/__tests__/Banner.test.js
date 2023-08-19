@@ -39,7 +39,7 @@ test('can download cv when clicked on download cv button', async () => {
 	// 	() => downloadLink
 	// );
 
-	// expect(downloadLink.download).toEqual('Stoman-Resume.pdf');
-	// expect(downloadLink.href).toEqual('/files/Stoman-Resume.pdf');
+	// expect(downloadLink.download).toEqual('ashraful_resume.pdf');
+	// expect(downloadLink.href).toEqual('/files/ashraful_resume.pdf');
 	// expect(downloadLink.click).toHaveBeenCalledTimes(1);
 });

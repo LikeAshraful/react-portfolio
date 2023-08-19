@@ -1,4 +1,5 @@
 import './css/main.css';
+import './css/custom.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -12,7 +12,7 @@ const FormInput = ({
 	return (
 		<div className="font-general-regular mb-4">
 			<label
-				className="block text-lg text-primary-dark dark:text-primary-light mb-1"
+				className="required block text-lg text-primary-dark dark:text-primary-light mb-1"
 				htmlFor={labelFor}
 			>
 				{inputLabel}
