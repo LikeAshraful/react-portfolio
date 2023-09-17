@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
+import { toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+
+// toast.configure();
 
 const ContactForm = () => {
 	const [status, setStatus] = useState("Sent Message");
@@ -28,9 +32,9 @@ const ContactForm = () => {
 
 		//clear the form fields
 		e.target.reset();
-
 		let result = await response.json();
 		console.log(result.status);
+		toast(result.status);
 	}
 
 

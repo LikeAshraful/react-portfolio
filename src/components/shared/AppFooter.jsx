@@ -28,11 +28,11 @@ const socialLinks = [
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/likeashraful',
 	},
-	// {
-	// 	id: 5,
-	// 	icon: <FiYoutube />,
-	// 	url: 'https://www.youtube.com/c/likeashraful',
-	// },
+	{
+		id: 5,
+		icon: <FiYoutube />,
+		url: 'https://www.youtube.com/c/likeashraful',
+	},
 ];
 
 const AppFooter = () => {
