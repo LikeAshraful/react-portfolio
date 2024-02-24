@@ -44,8 +44,8 @@ export const projectsData = [
 	},
 	{
 		id: 6,
-		title: 'Mobile Design For Barta24',
-		category: 'Web Application',
+		title: 'Mobile/Responsive Web Design For Barta24 Project',
+		category: 'UI/Frontend',
 		img: WebImage1,
 	},
 ];
