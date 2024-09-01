@@ -72,7 +72,7 @@ const AppBanner = () => {
 					src={
 						activeTheme === 'dark' ? developerLight : developerDark
 					}
-					alt="Developer"
+					alt="Developer image"
 				/>
 			</motion.div>
 		</motion.section>

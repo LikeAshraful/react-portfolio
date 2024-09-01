@@ -57,7 +57,7 @@ const AppHeader = () => {
 								<img
 									src={logoLight}
 									className="w-50"
-									alt="Dark Logo"
+									alt="White Logo"
 								/>
 							)}
 						</Link>
